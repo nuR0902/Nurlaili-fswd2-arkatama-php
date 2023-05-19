@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tambah User</title>
+</head>
+<body>
+    <h1>Tambah User</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br>
+        <label for="role">Role:</label><br>
+        <input type="text" id="role" name="role">
+        <label for="role">Role:</label>
+              <select id="role" name="role" required>
+                <option value="">Pilih Role</option>
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+              </select><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="telp">Telepon:</label><br>
+        <input type="tel" id="telp" name="telp"><br>
+        <label for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat"></textarea><br>
+        <label for="foto">Foto:</label><br>
+        <input type="file" id="foto" name="foto"><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
